@@ -16,11 +16,11 @@ const Navbar = () => {
     <div className="navbar bg-base-300">
     <a className="btn btn-ghost mx-auto normal-case text-xl">Rahul Bhuayin</a>
   <div className="navbar-end">
-    <div className="dropdown">
+    <div className="dropdown mr-10">
       <label tabIndex="0" className="btn btn-ghost lg:hidden">
         <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
       </label>
-      <ul tabIndex="0" className="menu menu-compact dropdown-content mt-3 p-3 shadow bg-base-100 rounded-box w-30">
+      <ul tabIndex="0" className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-30">
       <li><NavLink to='/home'>Home</NavLink></li>
       <li><NavLink to='/about'>About</NavLink></li>
       <li><NavLink to='/services'>Services</NavLink></li>
@@ -42,12 +42,7 @@ const Navbar = () => {
 
     </ul>
   </div>
-  <label tabIndex="0" className="btn btn-ghost btn-circle avatar mx-auto">
-        <div className="w-10  rounded-full">
-         
-          <img src="https://api.lorem.space/image/face?hash=33791" />
-        </div>
-      </label>
+
 </div>
 </>
   );

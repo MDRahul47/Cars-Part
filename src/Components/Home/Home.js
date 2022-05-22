@@ -6,8 +6,8 @@ import './Home.css';
 const Home = () => {
     return (
         <div>
-            <Banner></Banner>
-            <BussinSummery></BussinSummery>
+            {/* <Banner></Banner> */}
+            {/* <BussinSummery></BussinSummery> */}
         </div>
     );
 };
