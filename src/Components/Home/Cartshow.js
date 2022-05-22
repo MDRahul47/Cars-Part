@@ -1,8 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Cart from '../Cart/Cart';
-import './Services.css';
 
-const Services = () => {
+const Cartshow = () => {
     const [users, setUsers] = useState([]);
     useEffect(() => {
         fetch('Fakedata.json')
@@ -17,7 +16,7 @@ const Services = () => {
             
 
             {
-                users?.slice(0, 12).map(user => <Cart
+                users?.slice(0, 3).map(user => <Cart
                     key={user._id}
                     user={user}
 
@@ -28,4 +27,5 @@ const Services = () => {
         </div>
     );
 };
-export default Services;
+
+export default Cartshow;

@@ -9,6 +9,7 @@ import { Link, useNavigate } from 'react-router-dom';
 const Login = () => {
   const [signInWithGoogle, guser, gloading, gerror] = useSignInWithGoogle(auth);
   const { register, formState: { errors }, handleSubmit } = useForm();
+
   const navigat = useNavigate(); 
 
 
@@ -35,12 +36,13 @@ const Login = () => {
 
   if(user || guser){
     console.log(user || guser);
+    navigat('/services')
   }
 
   const onSubmit = data =>{
+    navigat('/services')
     console.log(data);
     signInWithEmailAndPassword(data.email, data.password);
-    navigat('/services')
    }
 
 

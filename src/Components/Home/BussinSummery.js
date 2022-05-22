@@ -8,9 +8,9 @@ import { FaTools } from 'react-icons/fa';
 
 const BussinSummery = () => {
     return (
-      <div>
+      <div className='mb-28'>
           <h1 className=' mt-24  font-bold text-center text-3xl text-red-500  '>The Business Summary</h1>
-            <div class="stats stats-vertical  lg:stats-horizontal middle shadow-lg text-black  bg-primary ">
+            <div class="stats stats-vertical  lg:stats-horizontal middle shadow-lg text-white  bg-primary ">
             
             <div class="stat">
               

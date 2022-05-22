@@ -7,6 +7,7 @@ import About from './Components/About/About';
 import Signup from './Components/Signup/Signup';
 import Services from './Components/Services/Services';
 import Home from './Components/Home/Home';
+import RequarAuth from './Components/RequarAuth/RequarAuth';
 
 
 function App() {
@@ -16,7 +17,11 @@ function App() {
       <Routes>
         <Route path="/login" element={<Login />} />
         <Route path="/home" element={<Home />} />
-        <Route path="/services" element={<Services />} />
+        <Route path="/services" element={
+          <RequarAuth>
+            <Services />
+          </RequarAuth>
+        } />
         <Route path="/signup" element={<Signup />} />
         <Route path="/about" element={<About />} />
       </Routes>

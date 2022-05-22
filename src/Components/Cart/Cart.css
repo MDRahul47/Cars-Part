@@ -1,0 +1,16 @@
+.photo {
+    height: 230px;
+    width: 370px;
+    margin: 0px auto;  
+}
+
+.mid{
+    margin-left: 60px;
+}
+
+@media only screen and (max-width: 600px) {
+    .mid{
+        margin-left: 0px;
+    }
+    
+}

@@ -37,6 +37,7 @@ const Signup = () => {
   
     if(user || guser){
       console.log(user || guser);
+      navigat('/services')
     }
   
     const onSubmit = async data =>{

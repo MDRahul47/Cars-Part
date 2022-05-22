@@ -4,99 +4,99 @@
         "name": "Headlights",
         "img": "https://m.media-amazon.com/images/I/61X6mULoYKL._AC_SS450_.jpg",
         "price": 5000,
-	"minimum order quantity" : 50,
-	"available quantity": 900,
-	"description": "The primary task of headlights on cars is to illuminate the roadway and facilitate fatigue-free and safe driving. Headlights and their light sources are thus vehicle components that are relevant to safety..."
+	"Mquantity" : 50,
+	"Aquantity": 900,
+	"description": "The primary task of headlights on cars is to illuminate the roadway and facilitate fatigue-free and safe driving. "
     },
     {
         "id": 2,
         "name": "Looking Glass",
         "img": "https://m.media-amazon.com/images/I/81kP-T85kTL._AC_SS450_.jpg",
         "price": 2500,
-	"minimum order quantity" : 50,
-	"available quantity": 1000,
-	"description": "Looking glass is a very important part of a car. You know, if you dont have a looking glass in your car, the traffic police can stop you and even fine you. In many countries, it is a law to properly attach looking glass..."
+	"Mquantity" : 50,
+	"Aquantity": 1000,
+	"description": "Looking glass is a very important part of a car. You know, if you dont have a looking glass in your car, "
     },
     {
         "id": 3,
         "name": "Car Door",
         "img": "https://media.istockphoto.com/photos/modern-red-car-door-isolated-on-white-background-with-clipping-path-picture-id1332309826?b=1&k=20&m=1332309826&s=170667a&w=0&h=sgzR3dIbJnBcQBFJ00dPYnKx0N-LiOl_ebYrTu02t4I=",
         "price": 3800,
-	"minimum order quantity" : 50,
-	"available quantity": 700,
-	"description": "A major safety issue with opened vehicle doors is the assumption at night vehicle doors can provide a warning to other vehicle drivers. It is estimated over 50 percent of all vehicle doors have nothing applied to the interior of the vehicle door such as light and/or a reflector."	
+	"Mquantity" : 50,
+	"Aquantity": 700,
+	"description": "A major safety issue with opened vehicle doors is the assumption at night vehicle doors can provide a warning to other vehicle drivers."	
     },
     {
         "id": 4,
         "name": "Car Bonnet",
         "img": "https://www.kindpng.com/picc/m/40-407226_panel-front-hood-suzuki-alto-hd-png-download.png",
         "price": 1200,
-	"minimum order quantity" : 50,
-	"available quantity": 2500,
-	"description":"A car bonnet is the metal part that covers the engine of an automobile. The term car bonnet is a British term, used primarily in England, Ireland, Scotland, Wales, India, New Zealand, Australia, etc. Bonnet comes from the Old French word bonet, which means cloth used as a headdress."
+	"Mquantity" : 50,
+	"Aquantity": 2500,
+	"description":"A car bonnet is the metal part that covers the engine of an automobile. The term car bonnet is a British term, used primarily in England etc."
     },
     {
         "id": 5,
         "name": "Car Seat",
         "img": "https://images.maxi-cosi.com/dorel-public-storage-prod/catalog/product/cache/655f0b719d7fda71d9d06b11a51a9714/8/0/8037510110_2020_maxicosi_carseat_toddlercarseat_nomad_grey_authenticgrey_3qrtleft.png",
         "price": 3900,
-	"minimum order quantity" : 50,
-	"available quantity": 1500,
-	"description": "Baby car seat mold effects the plastic car safety seat molding production output a lot. High efficiency cooling system for the plastic car safety seat mould will shorten the shot circle, as a result, save more machining cost and time. JMT concerns a lot on mold cooling system and production stability."
+	"Mquantity" : 50,
+	"Aquantity": 1500,
+	"description": "Baby car seat mold effects the plastic car safety seat molding production output a lot. High efficiency cooling system for the plastic car safety seat mould will shorten."
     },
     {
         "id": 6,
         "name": "Car Exhaust",
         "img": "https://res.cloudinary.com/hvwckxprc/image/fetch/c_limit,q_auto:good,w_1200/https://d2bythind2nctn.cloudfront.net/media/uk/cms/exhaust-back-box_dd53058360.png",
         "price": 300,
-	"minimum order quantity" : 50,
-	"available quantity": 3000,
-	"description":"Each time your car runs, inside the engine there are thousands of small explosions happening. Each explosion produces power. It does this when it pushes against the pistons of the engine.A side effect of the explosions is that, besides producing power, they produce leftover gas too."
+	"Mquantity" : 50,
+	"Aquantity": 3000,
+	"description":"Each time your car runs, inside the engine there are thousands of small explosions happening. Each explosion produces power."
     },
     {
         "id": 7,
         "name": "Car Suspension",
         "img": "https://www.pngall.com/wp-content/uploads/8/Suspension-Spring-PNG-Image-File.png",
         "price": 2700,
-	"minimum order quantity" : 50,
-	"available quantity": 1600,
-	"description":"Automobiles were initially developed as self-propelled versions of horse-drawn vehicles. However, horse-drawn vehicles had been designed for relatively slow speeds, and their suspension was not well suited to the higher speeds permitted by the internal combustion engine."
+	"Mquantity" : 50,
+	"Aquantity": 1600,
+	"description":"Automobiles were initially developed as self-propelled versions of horse-drawn vehicles."
     },
     {
         "id": 8,
         "name": "Car Break",
         "img": "https://pngset.com/images/brakes-car-brake-pads-wristwatch-transparent-png-533804.png",
         "price": 2700,
-	"minimum order quantity" : 50,
-	"available quantity": 2200,
-	"description": "The function of a “brake” in a car is to convert one type of energy into another. That is, convert movement into heat energy via friction. The brake system consists of a rotating mass that is attached to the wheel hub and a stationary portion that is attached to the axle or control arm (or generally somewhere on the vehicles suspension or frame along the axle)."
+	"Mquantity" : 50,
+	"Aquantity": 2200,
+	"description": "The function of a “brake” in a car is to convert one type of energy into another. That is, convert movement into heat energy via friction. "
     },
     {
         "id": 9,
         "name": "Car Wiper",
         "img": "https://5.imimg.com/data5/GB/IY/MY-16425244/wiper-blade-500x500.jpg",
         "price": 800,
-	"minimum order quantity" : 50,
-	"available quantity": 4000,
-	"description":"On some vehicles, a windscreen washer system is also used to improve and expand the function of the wiper(s) to dry or icy conditions. This system sprays water, or an antifreeze window washer fluid, at the windscreen using several well-positioned nozzles. "
+	"Mquantity" : 50,
+	"Aquantity": 4000,
+	"description":"On some vehicles, a windscreen washer system is also used to improve and expand the function of the wiper(s) to dry or icy conditions. "
     },
     {
         "id": 10,
         "name": "Car Bumper",
         "img": "https://sc04.alicdn.com/kf/H30b7f66dae91471bbff8d80caff5bd1c4.jpg",
         "price": 100,
-	"minimum order quantity" : 50,
-	"available quantity": 2300,
-	"description": "If youve owned or driven a car, you could undoubtedly give a basic explanation of what and where the bumpers are. But you might not realize theres more to a car bumper than meets the eye."
+	"Mquantity" : 50,
+	"Aquantity": 2300,
+	"description": "If youve owned or driven a car, you could undoubtedly give a basic explanation of what and where the bumpers are. "
     },
     {
         "id": 11,
         "name": "Car Glass",
         "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShv3swm_aCuapqe4xI89W5nQZUOmPLPaOkbG5kNEfQALj4o0Ndii-4wpuA7U-sppIqjg0&usqp=CAU",
         "price":450,
-	"minimum order quantity" : 50,
-	"available quantity": 1200,
-	"description":"Back glass also called rear window glass, rear windshield, or rear glass, is the piece of glass opposite the windshield in a vehicle. Back glass is made from tempered glass, also known as safety glass, and when broken will shatter into small, round pieces."
+	"Mquantity" : 50,
+	"Aquantity": 1200,
+	"description":"Back glass also called rear window glass, rear windshield, or rear glass, is the piece of glass opposite the windshield in a vehicle."
 	
     },
     {
@@ -104,8 +104,8 @@
         "name": "Car Gair Box",
         "img": "https://www.mechanicalbooster.com/wp-content/uploads/2017/11/types-of-gearbox.jpg",
         "price": 10900,
-	"minimum order quantity" : 50,
-	"available quantity": 700,
-	"description":"The engine drives the input shaft, which drives the layshaft. The layshaft rotates the gears on the mainshaft, but these rotate freely until they are locked by means of the synchromesh device, which is splined to the shaft."
+	"Mquantity" : 50,
+	"Aquantity": 700,
+	"description":"The engine drives the input shaft, which drives the layshaft. The layshaft rotates the gears on the mainshaft,"
     }
 ]
