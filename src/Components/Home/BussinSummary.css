@@ -1,0 +1,17 @@
+.middle{
+    justify-content: center;
+    margin: 60px 390px;
+    text-align: center;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+   
+    .middle{
+        justify-content: center;
+        margin: 40px 100px;
+        text-align: center;
+    }
+
+  }
