@@ -16,7 +16,7 @@ const Cartshow = () => {
             
 
             {
-                users?.slice(0, 3).map(user => <Cart
+                users?.slice(2, 8).map(user => <Cart
                     key={user._id}
                     user={user}
 
