@@ -1,0 +1,36 @@
+.point{
+    margin:  0 auto;
+    width: 800px;
+    margin-top: 100px;
+    border-radius: 50px;
+    background: #e0e0e0;
+    box-shadow:  25px 25px 51px #5a5a5a,
+                 -25px -25px 51px #ffffff;
+               
+}
+
+.pic{
+    border-radius: 50px;
+    margin-left: -70px;
+}
+
+.tex{
+    
+    margin-left: 11%;
+    margin-top: 5%;
+}
+
+.icon{
+    margin-right:20% ;
+}
+
+.bg{
+    background: rgb(208, 124, 195);
+    display: flex;
+    height: 8rem;
+    width: 30rem;
+    filter: blur(150px);
+    clip-path: ellipse(10% -10% at 35% 70%);
+    position: absolute;
+    top: 500px;
+}

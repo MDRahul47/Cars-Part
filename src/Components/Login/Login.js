@@ -101,11 +101,6 @@ const Login = () => {
   </label>
  </div>
 
- {/* reset password  */}
-
- {/* <button   > <small className='pb-8'> Reset Password</small> </button> */}
-
-
  {errorMessage}
    
       <input  className='btn w-full max-w-xs mt-3 font-bold' type="submit" value="Login"  />

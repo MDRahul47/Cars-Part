@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Cart from '../Cart/Cart';
+import './Cartshow.css';
 
 const Cartshow = () => {
     const [users, setUsers] = useState([]);

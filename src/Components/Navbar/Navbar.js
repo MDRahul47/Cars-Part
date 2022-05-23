@@ -24,7 +24,7 @@ const Navbar = () => {
 
             </div>
 
-    <a className="btn btn-ghost mx-auto normal-case text-xl">Rahul Bhuayin</a>
+    <a className="btn btn-ghost mx-auto normal-case text-xl">Car Parts</a>
   <div className="navbar-end">
     <div className="dropdown mr-10">
       <label tabIndex="0" className="btn btn-ghost lg:hidden">
@@ -34,10 +34,11 @@ const Navbar = () => {
       <li><NavLink to='/home'>Home</NavLink></li>
       <li><NavLink to='/about'>About</NavLink></li>
 
+
       {user &&<li><NavLink to='/dashboard/myprofile'>Dashboard</NavLink></li>}
 
 
-      <li><NavLink to='/services'>Services</NavLink></li>
+
       <li><NavLink to='/blogs'>Blogs</NavLink></li>
 
       <li>{user ? <button onClick={logout} class="btn btn-ghost font-bold ">Sign Out</button> :<NavLink to='/login'>Login</NavLink>}</li>
@@ -50,8 +51,9 @@ const Navbar = () => {
   <ul className="menu menu-horizontal font-bold p-2 items-center ">
       <li  className="mr-3"><NavLink to='/home'>Home</NavLink></li>
       <li className="mr-3"><NavLink to='/about'>About</NavLink></li>
+
       {user &&<li><NavLink to='/dashboard/myprofile'>Dashboard</NavLink></li>}
-      <li className="mr-3"><NavLink to='/services'>Services</NavLink></li>
+
       <li className="mr-3"><NavLink to='/blogs'>Blogs</NavLink></li>
       <li>{user ? <button onClick={logout} class="btn btn-ghost font-bold">Sign Out</button> :<NavLink to='/login'>Login</NavLink>}</li>
 

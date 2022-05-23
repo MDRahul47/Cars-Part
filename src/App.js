@@ -5,7 +5,7 @@ import Login from './Components/Login/Login';
 import Footer from './Components/Footer/Footer';
 import About from './Components/About/About';
 import Signup from './Components/Signup/Signup';
-import Services from './Components/Services/Services';
+
 import Home from './Components/Home/Home';
 import RequarAuth from './Components/RequarAuth/RequarAuth';
 import MyOrders from './Components/Myorder/MyOrders';
@@ -13,6 +13,7 @@ import MyReviews from './Components/Myreview/MyReviews';
 import MyProfile from './Components/Myprofile/MyProfile';
 import Dashboard from './Components/Dashboard/Dashboard';
 import PageNotFound from './Components/PageNotFound/PageNotFound';
+
 
 
 function App() {
@@ -24,11 +25,7 @@ function App() {
         <Route path="/home" element={<Home />} />
         <Route path="/" element={<Home />} />
         <Route path="*" element={<PageNotFound />} />
-        <Route path="/services" element={
-          <RequarAuth>
-            <Services />
-          </RequarAuth>
-        } />
+       
 
         <Route path="/signup" element={<Signup />} />
         <Route path='/dashboard' element={<Dashboard></Dashboard>}>
