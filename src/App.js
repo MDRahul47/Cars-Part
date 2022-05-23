@@ -12,6 +12,7 @@ import MyOrders from './Components/Myorder/MyOrders';
 import MyReviews from './Components/Myreview/MyReviews';
 import MyProfile from './Components/Myprofile/MyProfile';
 import Dashboard from './Components/Dashboard/Dashboard';
+import PageNotFound from './Components/PageNotFound/PageNotFound';
 
 
 function App() {
@@ -21,6 +22,8 @@ function App() {
       <Routes>
         <Route path="/login" element={<Login />} />
         <Route path="/home" element={<Home />} />
+        <Route path="/" element={<Home />} />
+        <Route path="*" element={<PageNotFound />} />
         <Route path="/services" element={
           <RequarAuth>
             <Services />

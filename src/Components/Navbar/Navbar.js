@@ -40,7 +40,7 @@ const Navbar = () => {
       <li><NavLink to='/services'>Services</NavLink></li>
       <li><NavLink to='/blogs'>Blogs</NavLink></li>
 
-      <li>{user ? <button onClick={logout} class="btn btn-ghost">Sign Out</button> :<NavLink to='/login'>Login</NavLink>}</li>
+      <li>{user ? <button onClick={logout} class="btn btn-ghost font-bold ">Sign Out</button> :<NavLink to='/login'>Login</NavLink>}</li>
 
 
       </ul>
@@ -53,7 +53,7 @@ const Navbar = () => {
       {user &&<li><NavLink to='/dashboard/myprofile'>Dashboard</NavLink></li>}
       <li className="mr-3"><NavLink to='/services'>Services</NavLink></li>
       <li className="mr-3"><NavLink to='/blogs'>Blogs</NavLink></li>
-      <li>{user ? <button onClick={logout} class="btn btn-ghost">Sign Out</button> :<NavLink to='/login'>Login</NavLink>}</li>
+      <li>{user ? <button onClick={logout} class="btn btn-ghost font-bold">Sign Out</button> :<NavLink to='/login'>Login</NavLink>}</li>
 
     </ul>
   </div>
