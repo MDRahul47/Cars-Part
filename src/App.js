@@ -13,6 +13,7 @@ import MyReviews from './Components/Myreview/MyReviews';
 import MyProfile from './Components/Myprofile/MyProfile';
 import Dashboard from './Components/Dashboard/Dashboard';
 import PageNotFound from './Components/PageNotFound/PageNotFound';
+import Blog from './Components/Blog/Blog';
 
 
 
@@ -24,6 +25,7 @@ function App() {
         <Route path="/login" element={<Login />} />
         <Route path="/home" element={<Home />} />
         <Route path="/" element={<Home />} />
+        <Route path="/blogs" element={<Blog />} />
         <Route path="*" element={<PageNotFound />} />
        
 
