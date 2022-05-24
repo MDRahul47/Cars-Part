@@ -1,111 +1,20 @@
 [
     {
         "id": 1,
-        "name": "Headlights",
-        "img": "https://m.media-amazon.com/images/I/61X6mULoYKL._AC_SS450_.jpg",
-        "price": 5000,
-	"Mquantity" : 50,
-	"Aquantity": 900,
-	"description": "The primary task of headlights on cars is to illuminate the roadway and facilitate fatigue-free and safe driving. "
+        "name": "Rabuil",
+	"star":4.5,
+      	"review": "OMG its really a good products. I buy this all of products and its really a amizing. I am sure you also gonna love it."
     },
     {
         "id": 2,
-        "name": "Looking Glass",
-        "img": "https://m.media-amazon.com/images/I/81kP-T85kTL._AC_SS450_.jpg",
-        "price": 2500,
-	"Mquantity" : 50,
-	"Aquantity": 1000,
-	"description": "Looking glass is a very important part of a car. You know, if you dont have a looking glass in your car, "
+        "name": "Sabbir",
+	"star":4,
+      	"review": "its really good must check it out."
     },
     {
         "id": 3,
-        "name": "Car Door",
-        "img": "https://media.istockphoto.com/photos/modern-red-car-door-isolated-on-white-background-with-clipping-path-picture-id1332309826?b=1&k=20&m=1332309826&s=170667a&w=0&h=sgzR3dIbJnBcQBFJ00dPYnKx0N-LiOl_ebYrTu02t4I=",
-        "price": 3800,
-	"Mquantity" : 50,
-	"Aquantity": 700,
-	"description": "A major safety issue with opened vehicle doors is the assumption at night vehicle doors can provide a warning to other vehicle drivers."	
-    },
-    {
-        "id": 4,
-        "name": "Car Bonnet",
-        "img": "https://www.kindpng.com/picc/m/40-407226_panel-front-hood-suzuki-alto-hd-png-download.png",
-        "price": 1200,
-	"Mquantity" : 50,
-	"Aquantity": 2500,
-	"description":"A car bonnet is the metal part that covers the engine of an automobile. The term car bonnet is a British term, used primarily in England etc."
-    },
-    {
-        "id": 5,
-        "name": "Car Seat",
-        "img": "https://images.maxi-cosi.com/dorel-public-storage-prod/catalog/product/cache/655f0b719d7fda71d9d06b11a51a9714/8/0/8037510110_2020_maxicosi_carseat_toddlercarseat_nomad_grey_authenticgrey_3qrtleft.png",
-        "price": 3900,
-	"Mquantity" : 50,
-	"Aquantity": 1500,
-	"description": "Baby car seat mold effects the plastic car safety seat molding production output a lot. High efficiency cooling system for the plastic car safety seat mould will shorten."
-    },
-    {
-        "id": 6,
-        "name": "Car Exhaust",
-        "img": "https://res.cloudinary.com/hvwckxprc/image/fetch/c_limit,q_auto:good,w_1200/https://d2bythind2nctn.cloudfront.net/media/uk/cms/exhaust-back-box_dd53058360.png",
-        "price": 300,
-	"Mquantity" : 50,
-	"Aquantity": 3000,
-	"description":"Each time your car runs, inside the engine there are thousands of small explosions happening. Each explosion produces power."
-    },
-    {
-        "id": 7,
-        "name": "Car Suspension",
-        "img": "https://cdn.shopify.com/s/files/1/0519/4441/files/HP11.6-2_1600x.jpg?v=1584023361",
-        "price": 2700,
-	"Mquantity" : 50,
-	"Aquantity": 1600,
-	"description":"Automobiles were initially developed as self-propelled versions of horse-drawn vehicles."
-    },
-    {
-        "id": 8,
-        "name": "Car Break",
-        "img": "https://images.cdn.circlesix.co/image/2/900/600/5/uploads/posts/2018/07/26fe22f651c0d8ddf8706a54b5580e93.jpg",
-        "price": 2700,
-	"Mquantity" : 50,
-	"Aquantity": 2200,
-	"description": "The function of a “brake” in a car is to convert one type of energy into another. That is, convert movement into heat energy via friction. "
-    },
-    {
-        "id": 9,
-        "name": "Car Wiper",
-        "img": "https://5.imimg.com/data5/GB/IY/MY-16425244/wiper-blade-500x500.jpg",
-        "price": 800,
-	"Mquantity" : 50,
-	"Aquantity": 4000,
-	"description":"On some vehicles, a windscreen washer system is also used to improve and expand the function of the wiper(s) to dry or icy conditions. "
-    },
-    {
-        "id": 10,
-        "name": "Car Bumper",
-        "img": "https://sc04.alicdn.com/kf/H30b7f66dae91471bbff8d80caff5bd1c4.jpg",
-        "price": 100,
-	"Mquantity" : 50,
-	"Aquantity": 2300,
-	"description": "If youve owned or driven a car, you could undoubtedly give a basic explanation of what and where the bumpers are. "
-    },
-    {
-        "id": 11,
-        "name": "Car Glass",
-        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShv3swm_aCuapqe4xI89W5nQZUOmPLPaOkbG5kNEfQALj4o0Ndii-4wpuA7U-sppIqjg0&usqp=CAU",
-        "price":450,
-	"Mquantity" : 50,
-	"Aquantity": 1200,
-	"description":"Back glass also called rear window glass, rear windshield, or rear glass, is the piece of glass opposite the windshield in a vehicle."
-	
-    },
-    {
-        "id": 12,
-        "name": "Car Gair Box",
-        "img": "https://www.mechanicalbooster.com/wp-content/uploads/2017/11/types-of-gearbox.jpg",
-        "price": 10900,
-	"Mquantity" : 50,
-	"Aquantity": 700,
-	"description":"The engine drives the input shaft, which drives the layshaft. The layshaft rotates the gears on the mainshaft,"
+        "name": "Abdullah",
+	"star":5,
+	"review": "If you went quallaty product then you must buy this one."
     }
 ]

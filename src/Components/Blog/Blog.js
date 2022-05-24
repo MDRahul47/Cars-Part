@@ -5,8 +5,8 @@ const Blog = () => {
     return (
         <div>
             <div className='pragh'>
-                <h1 className='text-3xl font-bold'>How will you improve the performance of a React Application?</h1>
-                <p>Firebase Performance Monitoring, a real time app performance monitoring tool, helps you keep a close eye on your app as you roll out new features or make configuration changes. Performance Monitoring also gives you control over your performance data with a customizable dashboard that makes it easy to focus on your most important metrics.</p>
+                <h1 className='text-3xl font-bold'>How will you improve the perhtmlFormance of a React Application?</h1>
+                <p>Firebase PerhtmlFormance Monitoring, a real time app perhtmlFormance monitoring tool, helps you keep a close eye on your app as you roll out new features or make configuration changes. PerhtmlFormance Monitoring also gives you control over your perhtmlFormance data with a customizable dashboard that makes it easy to focus on your most important metrics.</p>
             </div>
             <div className='pragh'>
                 <h1 className='text-3xl font-bold'>What are the different ways to manage a state in a React application?</h1>

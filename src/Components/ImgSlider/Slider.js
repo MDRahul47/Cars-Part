@@ -21,7 +21,7 @@ export default class AutoPlay extends Component {
     
     return (
       <div className="dp mt-40">
-        <h2 className="text-center font-bold  text-red-500"> Top Collection </h2>
+        <h2 className="text-center font-bold  text-red-500 text-2xl mb-10"> Top Collection </h2>
         <Slider className="text-center  " {...settings}>
           <div>
           <img className="pho" src="https://www.mechanicalbooster.com/wp-content/uploads/2017/11/types-of-gearbox.jpg" alt="" />

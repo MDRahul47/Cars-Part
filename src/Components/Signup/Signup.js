@@ -37,14 +37,14 @@ const Signup = () => {
   
     if(user || guser){
       console.log(user || guser);
-      navigat('/services')
+      navigat('/dashboard')
     }
   
     const onSubmit = async data =>{
       console.log(data);
      await createUserWithEmailAndPassword(data.email, data.password);
       await updateProfile({ displayName:data.name });
-        navigat('/services')
+        navigat('/dashboard')
      }
    
       return (

@@ -5,7 +5,7 @@ import './Cartshow.css';
 const Cartshow = () => {
     const [users, setUsers] = useState([]);
     useEffect(() => {
-        fetch('Fakedata.json')
+        fetch('http://localhost:5000/service')
             .then(res => res.json())
             .then(data => setUsers(data))
     }, [])
@@ -17,7 +17,7 @@ const Cartshow = () => {
             
 
             {
-                users?.slice(2, 8).map(user => <Cart
+                users?.map(user => <Cart
                     key={user._id}
                     user={user}
 

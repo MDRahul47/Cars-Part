@@ -36,11 +36,11 @@ const Login = () => {
 
   if(user || guser){
     console.log(user || guser);
-    navigat('/services')
+    navigat('/dashboard')
   }
 
   const onSubmit = data =>{
-    navigat('/services')
+    navigat('/dashboard')
     console.log(data);
     signInWithEmailAndPassword(data.email, data.password);
    }
