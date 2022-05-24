@@ -7,7 +7,7 @@ import auth from "../../Firebase.init";
 
 const Navbar = () => {
   const {pathname} = useLocation();
-  const [user, loading, error] = useAuthState(auth);
+  const [user] = useAuthState(auth);
 
   const logout = () => {
     signOut(auth);

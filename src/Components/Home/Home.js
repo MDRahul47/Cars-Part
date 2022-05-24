@@ -5,6 +5,7 @@ import Banner from './Banner';
 import BussinSummery from './BussinSummery';
 import Cartshow from './Cartshow';
 import './Home.css';
+import LastSection from './LastSection/LastSection';
 
 const Home = () => {
     return (
@@ -14,6 +15,7 @@ const Home = () => {
             <Cartshow></Cartshow>
             <AutoPlay></AutoPlay>
             <MyrevirewMap></MyrevirewMap>
+            <LastSection></LastSection>
         </div>
     );
 };

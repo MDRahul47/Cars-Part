@@ -7,13 +7,15 @@ import About from './Components/About/About';
 import Signup from './Components/Signup/Signup';
 
 import Home from './Components/Home/Home';
-import RequarAuth from './Components/RequarAuth/RequarAuth';
+
 import MyOrders from './Components/Myorder/MyOrders';
 import MyReviews from './Components/Myreview/MyReviews';
 import MyProfile from './Components/Myprofile/MyProfile';
 import Dashboard from './Components/Dashboard/Dashboard';
 import PageNotFound from './Components/PageNotFound/PageNotFound';
 import Blog from './Components/Blog/Blog';
+import Puches from './Components/Puches/Puches';
+import RequarAuth from './Components/RequarAuth/RequarAuth';
 
 
 
@@ -25,6 +27,9 @@ function App() {
         <Route path="/login" element={<Login />} />
         <Route path="/home" element={<Home />} />
         <Route path="/" element={<Home />} />
+        <Route path="/puches/:id" element={<RequarAuth>
+          <Puches />
+        </RequarAuth>} />
         <Route path="/blogs" element={<Blog />} />
         <Route path="*" element={<PageNotFound />} />
        
