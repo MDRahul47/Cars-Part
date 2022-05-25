@@ -18,6 +18,7 @@ import Puches from './Components/Puches/Puches';
 import RequarAuth from './Components/RequarAuth/RequarAuth';
 import Alluser from './Components/Admin/Alluser/Alluser';
 import AddIteams from './Components/Admin/AddIteams/AddIteams';
+import ManageParts from './Components/Admin/ManageParts/ManageParts';
 
 
 
@@ -41,6 +42,7 @@ function App() {
           <Route path='/dashboard/alluser' element={<Alluser></Alluser>} ></Route>
           <Route path='/dashboard/addIteams' element={<AddIteams></AddIteams>} ></Route>
           <Route path='/dashboard/myprofile' element={<MyProfile></MyProfile>}></Route>
+          <Route path='/dashboard/manageParts' element={<ManageParts></ManageParts>}></Route>
         </Route>
         <Route path="/about" element={<About />} />
       </Routes>
