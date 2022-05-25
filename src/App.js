@@ -32,8 +32,6 @@ function App() {
         </RequarAuth>} />
         <Route path="/blogs" element={<Blog />} />
         <Route path="*" element={<PageNotFound />} />
-       
-
         <Route path="/signup" element={<Signup />} />
         <Route path='/dashboard' element={<Dashboard></Dashboard>}>
           <Route path='/dashboard/myorders' element={<MyOrders></MyOrders>}></Route>
