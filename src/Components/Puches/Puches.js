@@ -1,9 +1,12 @@
 import React, { useEffect, useState } from 'react';
 import { useAuthState } from 'react-firebase-hooks/auth';
-import { useParams } from 'react-router-dom';
+import { useNavigate, useParams } from 'react-router-dom';
 import auth from '../../Firebase.init';
 
 const Puches = () => {
+  const navigator = useNavigate();
+
+
     const [user] = useAuthState(auth);
     console.log(user);
     const { id } = useParams();
@@ -19,8 +22,34 @@ const Puches = () => {
       Mquantity,
     } = purchase;
   
+
+    const [updateQuantity, setUpdateQuantity] = useState(0);
+
     const handlePurchaseProduct = (e) => {
       e.preventDefault();
+      const quantity = e.target.quantity.value;
+      if(quantity < Mquantity ){
+        return alert('Give a valu more then a 50')
+      }
+      if(quantity > Aquantity){
+        return alert('Sorry We have not enough much quantity')
+      }
+      const updatedQuantity = Aquantity - quantity;
+  
+      const update = { updatedQuantity };
+      fetch(`http://localhost:5000/update/${id}`, {
+        method: "PUT",
+        headers: {
+          "content-type": "application/json",
+        },
+        body: JSON.stringify(update),
+      })
+        .then((res) => res.json())
+        .then((data) => {
+          if (data.modifiedCount) {
+            setUpdateQuantity(updateQuantity + 1);
+          }
+        });
   
       const purchasedInfo = {
         productId: _id,
@@ -32,8 +61,20 @@ const Puches = () => {
         userPhone: e.target.phone.value,
         userAddress: e.target.address.value,
       };
-      console.log(purchasedInfo);
+  
+      fetch(" http://localhost:5000/order", {
+        method: "POST",
+        headers: {
+          "content-type": "application/json",
+        },
+        body: JSON.stringify(purchasedInfo),
+      })
+      .then((res) => res.json())
+      .then((data) => {
+        navigator('/');
+      })
     };
+
   
     useEffect(() => {
       fetch(`http://localhost:5000/service/${id}`)

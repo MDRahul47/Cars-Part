@@ -5,6 +5,7 @@ import auth from '../../Firebase.init';
 import { useForm } from "react-hook-form";
 import Loading from '../Loading/Loading';
 import { Link, useNavigate } from 'react-router-dom';
+import useToken from '../../hook/useToken';
 
 const Login = () => {
   const [signInWithGoogle, guser, gloading, gerror] = useSignInWithGoogle(auth);
@@ -22,6 +23,7 @@ const Login = () => {
     error,
   ] = useSignInWithEmailAndPassword(auth);
 
+  const token = useToken(user || guser)
 
   let errorMessage;
 
@@ -34,14 +36,15 @@ const Login = () => {
     errorMessage = <p className='text-red-500 text-center p-3'><small>{error?.message || gerror?.message}</small></p>
   }
 
-  if(user || guser){
-    console.log(user || guser);
+
+
+  
+  if(token){
     navigat('/dashboard')
   }
 
   const onSubmit = data =>{
     navigat('/dashboard')
-    console.log(data);
     signInWithEmailAndPassword(data.email, data.password);
    }
 

@@ -16,6 +16,8 @@ import PageNotFound from './Components/PageNotFound/PageNotFound';
 import Blog from './Components/Blog/Blog';
 import Puches from './Components/Puches/Puches';
 import RequarAuth from './Components/RequarAuth/RequarAuth';
+import Alluser from './Components/Admin/Alluser/Alluser';
+import AddIteams from './Components/Admin/AddIteams/AddIteams';
 
 
 
@@ -36,6 +38,8 @@ function App() {
         <Route path='/dashboard' element={<Dashboard></Dashboard>}>
           <Route path='/dashboard/myorders' element={<MyOrders></MyOrders>}></Route>
           <Route path='/dashboard/myreviews' element={<MyReviews></MyReviews>} ></Route>
+          <Route path='/dashboard/alluser' element={<Alluser></Alluser>} ></Route>
+          <Route path='/dashboard/addIteams' element={<AddIteams></AddIteams>} ></Route>
           <Route path='/dashboard/myprofile' element={<MyProfile></MyProfile>}></Route>
         </Route>
         <Route path="/about" element={<About />} />
