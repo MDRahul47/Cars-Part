@@ -19,8 +19,7 @@ const ManageParts = () => {
         <th></th>
         <th>Name</th>
         <th></th>
-        <th>Admin</th>
-        <th>Section</th>
+        <th>Delete</th>
       </tr>
     </thead>
     <tbody>

@@ -16,9 +16,11 @@ import PageNotFound from './Components/PageNotFound/PageNotFound';
 import Blog from './Components/Blog/Blog';
 import Puches from './Components/Puches/Puches';
 import RequarAuth from './Components/RequarAuth/RequarAuth';
-import Alluser from './Components/Admin/Alluser/Alluser';
+// import Alluser from './Components/Admin/Alluser/Alluser';
 import AddIteams from './Components/Admin/AddIteams/AddIteams';
 import ManageParts from './Components/Admin/ManageParts/ManageParts';
+import Makeadmin from './Components/Admin/Makeadmin/Makeadmin';
+import Allorders from './Components/Admin/Allorders/Allorders';
 
 
 
@@ -39,7 +41,8 @@ function App() {
         <Route path='/dashboard' element={<Dashboard></Dashboard>}>
           <Route path='/dashboard/myorders' element={<MyOrders></MyOrders>}></Route>
           <Route path='/dashboard/myreviews' element={<MyReviews></MyReviews>} ></Route>
-          <Route path='/dashboard/alluser' element={<Alluser></Alluser>} ></Route>
+          <Route path='/dashboard/makeadmin' element={<Makeadmin></Makeadmin>} ></Route>
+          <Route path='/dashboard/allorders' element={<Allorders></Allorders>} ></Route>
           <Route path='/dashboard/addIteams' element={<AddIteams></AddIteams>} ></Route>
           <Route path='/dashboard/myprofile' element={<MyProfile></MyProfile>}></Route>
           <Route path='/dashboard/manageParts' element={<ManageParts></ManageParts>}></Route>
